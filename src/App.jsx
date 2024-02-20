@@ -72,6 +72,7 @@ if (!!value.match(/^[0-9]*$/)) {
      setIsPrinciple(true)
      setIsRate(true)
      setIsYear(true)
+     setInterest(0)
      }
 
   const handleCalculate=(e)=>{
